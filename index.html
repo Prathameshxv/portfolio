@@ -24,7 +24,7 @@
         }
 
         .container {
-            max-width: 500px;
+            max-width: 550px;
             text-align: center;
             opacity: 0;
             animation: fadeIn 1s ease-in forwards;
@@ -44,17 +44,22 @@
             line-height: 1.5;
         }
 
-        .contact-quote {
+        .quote-box {
             font-size: 0.95rem;
-            color: #888;
+            color: #555;
             border-top: 1px solid #eaeaea;
             padding-top: 24px;
-            line-height: 1.6;
+            line-height: 1.7;
         }
 
-        .highlight {
-            font-weight: 500;
-            color: #333;
+        .author {
+            display: block;
+            margin-top: 16px;
+            font-size: 0.75rem;
+            color: #999;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
         }
 
         @keyframes fadeIn {
@@ -67,11 +72,11 @@
 
     <div class="container">
         <h1>Work in Progress</h1>
-        <p class="status">This site is currently being built. Check back later.</p>
+        <p class="status">This site is currently being built.</p>
         
-        <div class="contact-quote">
-            "Contact <span class="highlight">Prathamesh Sathe</span> if you have my number.<br>
-            If you don't, no problem."
+        <div class="quote-box">
+            "If you have a problem with me, text me. And if you don’t have my number, you don’t know me well enough to have a problem with me."
+            <span class="author">— Prathamesh Sathe</span>
         </div>
     </div>
 
