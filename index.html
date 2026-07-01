@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        /* Minimalist CSS Reset and Setup */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            color: #111;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            letter-spacing: -0.03em;
+            margin-bottom: 12px;
+        }
+
+        .status {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .contact-quote {
+            font-size: 0.95rem;
+            color: #888;
+            border-top: 1px solid #eaeaea;
+            padding-top: 24px;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            font-weight: 500;
+            color: #333;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Work in Progress</h1>
+        <p class="status">This site is currently being built. Check back later.</p>
+        
+        <div class="contact-quote">
+            "Contact <span class="highlight">Prathamesh Sathe</span> if you have my number.<br>
+            If you don't, no problem."
+        </div>
+    </div>
+
+</body>
+</html>
